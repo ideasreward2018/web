@@ -1,0 +1,92 @@
+.uc_clean_hover_team_member_effect * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_clean_hover_team_member_effect{
+	text-align:center;
+	cursor:pointer;
+	background:#ffffff;
+}
+
+.uc_clean_hover_team_member_effect img{
+	width:100%;
+	vertical-align:bottom;
+	height:auto;
+}
+
+.uc_clean_hover_team_member_effect .uc_team_caption{
+  	background: #ffffff none repeat scroll 0 0;
+  	padding-top: 25px;
+  	position: relative;
+  	transition: all 0.3s ease 0s;
+  	width: 100%;
+  	z-index: 1;
+}
+
+.uc_clean_hover_team_member_effect h5{
+	font-weight:700;
+	font-size:14px;
+	line-height:20px;
+	text-transform:uppercase;
+	margin:0 0 10px;
+	color:#111111;
+}
+
+.uc_clean_hover_team_member_effect span {
+  	color: #a1a1a1;
+  	display: block;
+  	padding-bottom: 15px;
+	font-weight:400;
+	font-size:13px;
+	line-height:13px;
+}
+
+.uc_clean_hover_team_member_effect .uc_team_container{
+	position:relative;
+}
+
+.uc_clean_hover_team_member_effect .uc_team_desc{
+  	height: 96px;
+  	left: 0;
+  	overflow: hidden;
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+	color: #787878;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.uc_clean_hover_team_member_effect .uc_social a{
+	background-color: #111111;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    width: 32px;
+	transition:all 0.3s ease-out 0s;
+	-webkit-transition:all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-out 0s;
+	-ms-transition:all 0.3s ease-out 0s;
+}
+
+.uc_clean_hover_team_member_effect .uc_social a:hover{
+	background-color:#77cb5a;
+}
+
+.uc_clean_hover_team_member_effect:hover .uc_team_caption {
+  	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+}

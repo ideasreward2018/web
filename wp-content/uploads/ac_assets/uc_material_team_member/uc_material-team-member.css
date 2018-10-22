@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_material-team-member *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_material-team-member .uc_inner:hover ul li a i{filter: grayscale(0%);}
+
+.uc_material-team-member .uc_inner{ width:100%; text-align:center;}
+
+.uc_material-team-member .uc_inner .uc_top{ width:100%; height:120px; position:relative;}
+.uc_material-team-member .uc_inner .uc_top .uc_member{position:absolute; left:50%; bottom:-73px; width:151px; height:151px; transform:translatex(-50%); 
+  -moz-transform: translatex(-50%);
+  -ms-transform: translatex(-50%); 
+  -o-transform: translatex(--50%); 
+  -webkit-transform: translatex(,-50%);  border-radius:100%; overflow:hidden; border:5px solid #fff;}
+.uc_material-team-member .uc_inner h2{font-size:16px;color:#1f1f1f; text-transform:uppercase;line-height:normal; font-weight:600;margin:100px 0 0;}
+.uc_material-team-member .uc_inner h2 span{ display:block; color:#b2b2b2; font-size:13px; margin:8px 0 0; text-transform:none;}
+.uc_material-team-member .uc_inner .border{ width:40px; height:2px; background:#fff; display:inline-block;}
+.uc_material-team-member .uc_inner p{color:#343434; font-size:14px; line-height:24px; font-weight:normal;padding:15px 20px 40px;}
+.uc_material-team-member .uc_inner ul{  overflow:hidden; padding:0 10px;border-top:1px solid #e8ecee;}
+.uc_material-team-member .uc_inner ul li{ float:left; width:33.3%;height:20px; position:relative; list-style:none; text-align:center; margin:15px 0;border-right:1px solid #e8ecee;}
+.uc_material-team-member .uc_inner ul li a{ display:block;}
+.uc_material-team-member .uc_inner ul li .fa{ position:absolute; top:50%; transform:translatey(-50%); font-size:18px; color: #c3c3c3;}
+.uc_material-team-member .uc_inner ul li:last-child{border-right:none;}
+
+.uc_material-team-member .uc_inner:hover .border{ background:#ff7878;}
+@media only screen and (max-width: 768px) {
+	
+.uc_starter_tabs .uc_starter_tabs_inner .tabber .tabHeades .tab_hd{ text-align:center; width:100%; padding:15px 0px; border-bottom:1px solid #e4e7f0;}		
+.uc_starter_tabs .uc_starter_tabs_inner .tabber .tabHeades .tab_hd:last-child{ border-bottom:none;}
+}
+
+

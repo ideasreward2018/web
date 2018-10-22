@@ -1,0 +1,1 @@
+[09-Sep-2018 14:39:00 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/lib/inc/redux/panel_templates/container.tpl.php on line 12

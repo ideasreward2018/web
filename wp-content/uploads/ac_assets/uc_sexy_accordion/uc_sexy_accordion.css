@@ -1,0 +1,169 @@
+
+.uc_sexy_accordion *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_sexy_accordion .uc_container .uc-heading
+{
+	font-weight:600;
+}
+.uc_sexy_accordion .uc_container .uc-heading
+{
+	font-size:14px;
+	line-height:30px;
+	display:block;
+	padding:0px;
+	font-weight:700;
+	clear:both;
+	cursor:pointer;
+	
+}
+
+.uc_sexy_accordion .uc_container .uc_ac_box
+{
+	border-left:3px solid;
+	margin-bottom:30px;
+}
+
+/*----------CSS--------------------*/
+
+.uc_sexy_accordion .uc_container .uc_content
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:22px;
+	padding:0px 20px 20px 20px;
+	font-weight:400;
+	color:#585a61;
+    display:none;
+	margin-bottom:2px;
+}
+
+.uc_sexy_accordion .uc_container .uc-heading
+{
+	color:#ffffff;
+	margin-bottom:27px;
+	overflow:hidden;
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_sexy_accordion .uc_container .uc-heading span.bbb
+{
+	float:left;
+	font-size:15px;
+	display:block;
+	text-align:center;
+	color:#636363;
+	width:40px;
+	height:40px;
+	line-height:40px;		
+}
+
+.uc_sexy_accordion .uc_container .uc-heading span.uc_main_icon
+{
+	font-size:22px;
+	line-height:45px;
+	width:60px;
+	height:41px;
+	color:#191919;
+
+}
+
+.uc_sexy_accordion .uc_container .uc-heading span.uc_dactive
+{
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	color:#b2b5be;
+}
+
+
+.uc_sexy_accordion .uc_container .uc-heading span.uc_active
+{
+	display:none;
+	float:right;
+}
+
+.uc_sexy_accordion .uc_container .uc-heading span.uc_dactive
+{
+	display:block;
+	float:right;
+
+}
+
+.uc_sexy_accordion .uc_container .uc-heading.active
+{
+	margin:0px;
+}
+
+.uc_sexy_accordion .uc_container .uc-heading.active i
+{
+	color:#585a61;
+	
+}
+
+.uc_sexy_accordion .uc_container .uc-heading i
+{
+	color:#b2b5be;
+	margin-left:3px;
+	font-size:26px;
+}
+
+.uc_sexy_accordion .uc_container .uc-heading.active em{ color:#585a61;}
+
+.uc_sexy_accordion .uc_container .uc-heading.active span.uc_active
+{
+	display:block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+
+.uc_sexy_accordion .uc_container .uc-heading.active span.uc_dactive
+{
+	display:none;
+		
+}
+
+
+.uc_sexy_accordion .uc_container .uc-heading em
+{ 
+	display:block; 
+	float:left;
+	text-transform:uppercase;
+	width:100%;
+	font-style:normal;
+	line-height:28px;
+	color:#b2b5be;
+	padding-left:20px;
+	margin-bottom:10px;
+}
+
+@media only screen and (max-width: 800px)
+{
+	.uc_sexy_accordion .uc_container .uc-heading em{ line-height:17px; margin-top:12px;}
+}
+@media only screen and (max-width: 700px)
+{
+	.uc_sexy_accordion .uc_container .uc_content{ margin-top:3px;}
+	.uc_sexy_accordion .uc_container .uc-heading.active span.uc_active{ width:37px;}
+	.uc_sexy_accordion .uc_container .uc-heading span.uc_dactive{ width:37px !important;}
+}
+
+@media only screen and (max-width: 500px){
+	
+	.uc_sexy_accordion .uc_container .uc-heading span.uc_main_icon{ width:50px; height:35px; line-height:50px; }
+	.uc_sexy_accordion .uc_container .uc-heading em{ font-size:15px; padding-left: 15px;}
+	.uc_sexy_accordion .uc_container .uc-heading span { margin-left:0px;}
+	.uc_sexy_accordion .uc_container .uc-heading span.uc_active { margin-top:0px;}
+	.uc_sexy_accordion .uc_container .uc-heading span.uc_dactive{ margin-top:0px;}
+	.uc_sexy_accordion .uc_container .uc_content{ padding: 5px 15px 33px 15px;}
+	
+}

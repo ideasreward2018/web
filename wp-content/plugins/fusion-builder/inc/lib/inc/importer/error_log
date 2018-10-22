@@ -1,0 +1,2 @@
+[09-Sep-2018 14:07:26 America/Chicago] PHP Fatal error:  Class 'WP_Importer' not found in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/lib/inc/importer/class-wxr-importer.php on line 3
+[09-Sep-2018 14:07:27 America/Chicago] PHP Fatal error:  Class 'WP_Importer_Logger' not found in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/lib/inc/importer/class-logger-html.php on line 3

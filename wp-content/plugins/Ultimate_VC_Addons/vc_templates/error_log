@@ -1,0 +1,6 @@
+[09-Sep-2018 15:48:42 America/Chicago] PHP Fatal error:  Call to undefined function shortcode_atts() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/vc_templates/single_tab.php on line 5
+[09-Sep-2018 15:48:42 America/Chicago] PHP Fatal error:  Call to undefined function shortcode_atts() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/vc_templates/ult_tab_element.php on line 5
+[10-Oct-2018 14:49:26 America/Chicago] PHP Fatal error:  Call to undefined function shortcode_atts() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/vc_templates/single_tab.php on line 5
+[10-Oct-2018 14:49:26 America/Chicago] PHP Fatal error:  Call to undefined function shortcode_atts() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/vc_templates/ult_tab_element.php on line 5
+[16-Oct-2018 12:10:15 America/Chicago] PHP Fatal error:  Call to undefined function shortcode_atts() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/vc_templates/single_tab.php on line 5
+[16-Oct-2018 12:10:15 America/Chicago] PHP Fatal error:  Call to undefined function shortcode_atts() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/vc_templates/ult_tab_element.php on line 5

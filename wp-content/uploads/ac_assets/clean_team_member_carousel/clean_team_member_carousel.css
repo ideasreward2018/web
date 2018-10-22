@@ -1,0 +1,113 @@
+.uc_clean_team_member_carousel * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_clean_team_member_carousel .owl-carousel{
+	padding-bottom:30px;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_carousel a{
+	transition: all 150ms ease-in 0s;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member{
+    font-size: 15px;
+	color: #4d4d4d;
+    font-weight: normal;	
+	text-align:center;
+	padding:0px 7px;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member h4{
+	font-size: 18px;
+    line-height: 22px;
+	color:#3d3d3d;
+	margin:0 0 5px 0;
+	
+}
+.uc_clean_team_member_carousel .uc_clean_team_member h4 a{
+	color:#3d3d3d;
+	text-decoration:none;
+	transition: all 150ms ease-in 0s;
+}
+.uc_clean_team_member_carousel .uc_clean_team_member h4 a:hover{
+	color:#25b7d3;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member p{
+    line-height:24px;
+	margin-bottom:20px;
+}
+.uc_clean_team_member_carousel .uc_clean_team_member small{
+	display:block;
+	font-size: 13px;
+	line-height:24px;
+    font-weight: 600;
+	color: #aaaaaa;
+	margin:0 0 10px 0;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member img{
+	display:block;
+	margin-bottom:20px;
+	width:100%;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_social{
+	text-align:center;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_social a{
+	display: inline-block;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+	font-size:16px;
+	color: #aaaaaa;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: inherit;
+	margin-right:8px;
+
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_social a:hover i.fa-pinterest-p{
+	color:#c53942;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_social a:hover i.fa-facebook{
+	color:#4470cf;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_social a:hover i.fa-rss{
+	color:#e86f04;
+}
+
+.uc_clean_team_member_carousel .uc_clean_team_member_social a:last-child{
+	margin-right:0px;
+}
+
+.uc_clean_team_member_carousel .uc_customNavigation{
+	text-align:center;
+}
+
+.uc_clean_team_member_carousel a.uc_btn{
+	background:#25b7d3;
+	display:inline-block;
+	padding:9px 16px;
+	margin:0 2px;
+}
+
+.uc_clean_team_member_carousel a.uc_btn:hover{
+	background:#0ba5c3;
+}
+
+.uc_clean_team_member_carousel a.uc_btn i{
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+}

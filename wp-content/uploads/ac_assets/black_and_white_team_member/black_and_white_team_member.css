@@ -1,0 +1,79 @@
+.uc_black_and_white_team_member * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  	background:#ffffff;
+}
+
+.uc_black_and_white_team_member .uc_team_pic{
+	position:relative;
+  	background:#ffffff;
+}
+
+.uc_black_and_white_team_member .uc_team_pic img{
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+
+
+
+.uc_black_and_white_team_member:hover h5, .uc_black_and_white_team_member:hover h6{
+	color:#55acee;
+}
+
+
+
+.uc_black_and_white_team_member h5{
+	font-weight:700;
+	color:#000000;
+	font-size:18px;
+	line-height:30px;
+	text-transform:uppercase;
+	transition:all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition:all 0.25s ease-in-out;
+	-ms-transition:all 0.25s ease-in-out;
+}
+
+.uc_black_and_white_team_member h6{
+	font-weight:300;
+	font-size:16px;
+	line-height:30px;
+	color:#999999;
+	text-transform:uppercase;
+	transition:all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition:all 0.25s ease-in-out;
+	-ms-transition:all 0.25s ease-in-out;
+}
+
+.uc_black_and_white_team_member .uc_social{
+	margin:10px 0;
+}
+
+.uc_black_and_white_team_member .uc_social a {
+  	background-color: rgba(0, 0, 0, 0);
+  	border-radius: 20px;
+  	color: #000000;
+  	display: inline-block;
+  	font-size: 20px;
+  	height: 40px;
+  	list-style-type: none;
+  	margin-right: 3px;
+  	width: 40px;
+	text-align:center;
+	line-height:41px;
+	text-transform:uppercase;
+	transition:all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+	-moz-transition:all 0.25s ease-in-out;
+	-ms-transition:all 0.25s ease-in-out;
+}
+
+.uc_black_and_white_team_member .uc_social a:hover{
+	background-color: #55acee;
+    color: #ffffff;
+}

@@ -1,0 +1,1 @@
+[09-Sep-2018 13:47:50 America/Chicago] PHP Fatal error:  Call to undefined function fusion_element_options_loop() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/templates/custom/fusion-pricing-table-settings.php on line 38

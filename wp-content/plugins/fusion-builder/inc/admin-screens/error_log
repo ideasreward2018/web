@@ -1,0 +1,7 @@
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Class 'Fusion_Builder_Admin' not found in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/addons.php on line 3
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Class 'Fusion_Builder_Admin' not found in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/faq.php on line 3
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Call to undefined function wp_get_theme() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/support.php on line 2
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Class 'Fusion_Builder_Admin' not found in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/library.php on line 11
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Call to undefined function FusionBuilder() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/settings.php on line 5
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Class 'Fusion_Builder_Admin' not found in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/whatsnew.php on line 3
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Call to undefined function FusionBuilder() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/admin-screens/register.php on line 4

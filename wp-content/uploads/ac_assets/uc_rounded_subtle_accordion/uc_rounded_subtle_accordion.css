@@ -1,0 +1,113 @@
+
+.uc_rounded_subtle_accordion *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_rounded_subtle_accordion .uc_container
+{
+	font-weight:400;
+}
+.uc_rounded_subtle_accordion .uc_container .uc-heading
+{
+	font-size:16px;
+	display:block;
+	padding:0px 20px 0px 0px;
+	font-weight:600;
+	overflow:hidden;
+	cursor:pointer;
+	color:#616570;
+}
+
+.uc_rounded_subtle_accordion .uc_container .uc_ac_box
+{
+	margin-bottom:3px;
+}
+
+/*----------CSS--------------------*/
+
+.uc_rounded_subtle_accordion .uc_container .uc_content
+{
+	font-size:15px;
+	line-height:22px;
+	padding:13px 22px 13px 68px;
+	font-weight:400;
+    display:none;
+	margin: 0 0 10px 0;
+	font: 14px ;
+	color: #6f6f6f;
+	line-height: 26px;
+	letter-spacing: 1px;
+	
+	
+}
+
+.uc_rounded_subtle_accordion .uc_container .uc-heading
+{
+	background-color:#616570;
+	color:#ffffff;
+	font-weight:500;
+	border-radius:50px;	
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_rounded_subtle_accordion .uc_container .uc-heading span.bbb
+{
+
+	text-align:center;
+	color:#FFFFFF;
+	width:54px;
+	height:43px;
+
+	float:left;
+	font-size:13px;
+	display:block;
+	line-height:45px;
+	margin-right:10px;
+	margin-left:2px; 
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.uc_rounded_subtle_accordion .uc_container .uc-heading span.uc_active
+{
+	display:none;
+}
+
+.uc_rounded_subtle_accordion .uc_container .uc-heading span.uc_dactive
+{
+	display:block;
+}
+
+.uc_rounded_subtle_accordion .uc_container .uc-heading.active span.uc_active
+{
+	display:block;
+}
+
+.uc_rounded_subtle_accordion .uc_container .uc-heading.active span.uc_dactive
+{
+	display:none;
+}
+.uc_rounded_subtle_accordion .uc_container .uc-heading em
+{ 
+	display:block; 
+	float:left;
+	line-height:20px;
+	padding:13px 0;
+	width:calc(100% - 89px);
+	font-style:normal;
+	font-weight:600;
+	
+}
+
+
+
+@media only screen and (max-width: 510px){
+	.uc_rounded_subtle_accordion .uc_container .uc-heading em { width:calc(100% - 90px); line-height:18px; margin-top:4px;}
+	
+}

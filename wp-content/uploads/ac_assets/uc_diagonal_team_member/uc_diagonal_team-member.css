@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_diagonal_team-member *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_diagonal_team-member .uc_inner{max-width:370px; height:420px; text-align:center; position:relative; margin:0 auto;overflow:hidden;}
+
+.uc_diagonal_team-member .uc_inner:hover{ transition:all 0.3s ease-in-out;
+	-webkit-box-shadow: 0px 5px 30px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 5px 30px rgba(0,0,0,0.15);
+box-shadow: 0px 5px 30px rgba(0,0,0,0.15);}
+.uc_diagonal_team-member .uc_inner img{ max-width:100%; position:absolute; left:0px; bottom:0px; margin:0 auto; right:0px;}
+
+.uc_diagonal_team-member .uc_inner .uc_pic_box{ width:50px; height:70px; position:relative; left:-17px; top:-28px;-ms-transform: rotate(45deg); /* IE 9 */-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */ transform: rotate(45deg);}
+.uc_diagonal_team-member .uc_inner .uc_border_box{  border:5px solid rgba(231, 213, 149, 0.5); position:absolute; left:0px; top:0px; margin:15px; width:92%; height:93%;}
+.uc_diagonal_team-member .uc_inner .uc_text_box{ position:absolute; left:-100%; bottom:0px; text-align:left; width:100%;transition: all 0.4s ease-out;}
+.uc_diagonal_team-member .uc_inner:hover .uc_text_box{left:0%;transition: all 0.4s ease-out;}
+.uc_diagonal_team-member .uc_inner .uc_text_box h2{font-family: 'Open Sans', sans-serif;font-size:18px;color:#fff;text-transform:uppercase;line-height:normal;font-weight:600;margin:18px 0 5px; width:75%; padding:18px 0 18px 18px;}
+.uc_diagonal_team-member .uc_inner .uc_text_box p{color:#fff; font-size:15px;line-height:24px;font-family: 'Open Sans', sans-serif;font-weight:600; padding:10px 0 10px 18px; width:47%;}
+
+.uc_diagonal_team-member .uc_inner .uc_icon_box{ margin:20px 0;padding:0 0 0 15px;}
+.uc_diagonal_team-member .uc_inner .uc_icon_box a{ width:34px; height:35px; background:rgba(0, 0, 0, 0.6); margin:0 6px; border-radius:100%; font-size:16px;display: inline-block; position:relative; color:#fff;}
+.uc_diagonal_team-member .uc_inner .uc_icon_box a .fa{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
+
+
+
+.uc_diagonal_team-member .uc_inner .uc_hover_box{position:absolute;left:50%;top:50%;height: 93%;transform:translate(-50%,-50%); background:rgba(231, 213, 149, 0.6); width:92%;display:none;}
+.uc_diagonal_team-member .uc_inner:hover .uc_hover_box{display:block;}
+.uc_diagonal_team-member .uc_inner:hover .uc_border_box{display:none;}
+
+
+
+
+
+
+
+
+
+

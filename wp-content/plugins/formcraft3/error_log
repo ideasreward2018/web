@@ -1,0 +1,4 @@
+[10-Oct-2018 14:18:31 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/vc.php on line 3
+[10-Oct-2018 14:18:32 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/formcraft-main.php on line 17
+[16-Oct-2018 11:34:38 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/vc.php on line 3
+[16-Oct-2018 11:34:39 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/formcraft-main.php on line 17

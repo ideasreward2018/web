@@ -1,0 +1,86 @@
+.uc_slide_up_team_member_effect * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_slide_up_team_member_effect img{
+	vertical-align:bottom;
+	width:100%;
+	height:auto;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+}
+
+.uc_slide_up_team_member_effect:hover img{
+	transform: translateY(-50px);
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transition: transform 0.4s ease 0s;
+	-webkit-transition: transform 0.4s ease 0s;
+	-moz-transition: transform 0.4s ease 0s;
+	-ms-transition: transform 0.4s ease 0s;
+}
+
+uc_slide_up_team_member_effect{
+	position:relative;
+}
+
+.uc_slide_up_team_member_effect .uc_team_overlay{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	opacity:1;
+	background-color:#222222;
+	padding:20px;
+	font-weight:400;
+	color:#898989;
+	font-size:14px;
+	line-height:22px;
+	transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+    transition: transform 0.4s ease 0s, opacity 0.1s ease 0.3s;
+	-webkit-transition: transform 0.4s ease 0s, opacity 0.1s ease 0.3s;
+	-moz-transition: transform 0.4s ease 0s, opacity 0.1s ease 0.3s;
+	-ms-transition: transform 0.4s ease 0s, opacity 0.1s ease 0.3s;
+}
+
+.uc_slide_up_team_member_effect:hover .uc_team_overlay{
+	opacity:1;
+    transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+    transition: transform 0.4s ease 0s, opacity 0.1s ease 0s;
+	-webkit-transition: transform 0.4s ease 0s, opacity 0.1s ease 0s;
+	-moz-transition: transform 0.4s ease 0s, opacity 0.1s ease 0s;
+	-ms-transition: transform 0.4s ease 0s, opacity 0.1s ease 0s;
+}
+
+.uc_slide_up_team_member_effect .uc_team_overlay h3{
+	font-size:17px;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#cdc4ba;
+	letter-spacing:0.25px;
+	line-height:26px;
+	margin:0 0 5px;
+}
+
+.uc_slide_up_team_member_effect .uc_team_overlay span.bbb{
+	font-size:11px;
+	font-weight:400;
+	color:#907557;
+	display:block;
+	text-transform:uppercase;
+	margin:0 0 20px;
+}

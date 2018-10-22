@@ -1,0 +1,2 @@
+[10-Oct-2018 14:18:20 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/simple-banner/simple-banner.php on line 16
+[16-Oct-2018 11:34:33 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/simple-banner/simple-banner.php on line 16

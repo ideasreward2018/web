@@ -1,0 +1,77 @@
+.uc_team_member_classic, .uc_team_member_classic *{
+	margin: 0;
+	padding: 0;
+}
+.uc_team_member_classic {
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+}
+.uc_team_member_classic .uc_contact {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.uc_team_member_classic .uc_contact::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	transition: all 0.3s ease-out;
+}
+.uc_team_member_classic .uc_contact:hover::after {
+	opacity: 0.8;
+	background-color: #ff6825;
+	transition: all 0.3s ease-out;
+}
+.uc_team_member_classic .uc_contact:hover .uc_link {
+	bottom: 50%;
+	margin-bottom: -20px;
+	transition: all 0.9s ease-out;
+}
+.uc_team_member_classic .uc_avatar {
+	width: 100%;
+}
+.uc_team_member_classic .uc_link {
+	position: absolute;
+	bottom: -200px;
+	width: 100%;
+	font-size: 0;
+	text-align: center;
+	z-index: 1;
+	transition: all 0.9s ease-out;
+}
+.uc_team_member_classic .uc_icon {
+	display: inline-block;
+	margin: 0 7px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.3);
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	transition: all 0.9s ease-out;
+}
+.uc_team_member_classic .uc_icon:hover {
+	background-color: #fff;
+	color: #4f555d;
+	transition: all 0.9s ease-out;
+}
+.uc_team_member_classic .uc_info {
+	padding: 25px 30px;
+}
+.uc_team_member_classic .uc_job {
+	font: bold 12px;
+	color: #232a34;
+	letter-spacing: 1px;
+}
+.uc_team_member_classic .uc_name {
+	margin: 10px 0 0;
+	font: 25px ;
+	color: #232a34;
+	word-wrap: break-word;
+}

@@ -1,0 +1,3 @@
+[09-Sep-2018 14:00:07 America/Chicago] PHP Fatal error:  Interface 'ReCaptcha\RequestMethod' not found in /home2/paramont/public_html/idealcoin.io/wp-content/themes/Avada/includes/recaptcha/src/ReCaptcha/RequestMethod/Post.php on line 36
+[09-Sep-2018 14:00:08 America/Chicago] PHP Fatal error:  Interface 'ReCaptcha\RequestMethod' not found in /home2/paramont/public_html/idealcoin.io/wp-content/themes/Avada/includes/recaptcha/src/ReCaptcha/RequestMethod/SocketPost.php on line 38
+[09-Sep-2018 14:00:09 America/Chicago] PHP Fatal error:  Interface 'ReCaptcha\RequestMethod' not found in /home2/paramont/public_html/idealcoin.io/wp-content/themes/Avada/includes/recaptcha/src/ReCaptcha/RequestMethod/CurlPost.php on line 38

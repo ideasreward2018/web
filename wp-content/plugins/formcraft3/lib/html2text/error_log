@@ -1,0 +1,8 @@
+[10-Oct-2018 14:49:20 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Expected: php -f convert.php [input file]' in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/lib/html2text/convert.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/lib/html2text/convert.php on line 26
+[16-Oct-2018 12:10:11 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Expected: php -f convert.php [input file]' in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/lib/html2text/convert.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/formcraft3/lib/html2text/convert.php on line 26

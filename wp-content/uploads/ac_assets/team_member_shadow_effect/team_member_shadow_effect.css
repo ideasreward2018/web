@@ -1,0 +1,121 @@
+.team_member_shadow_effect, .team_member_shadow_effect * {
+	margin: 0;
+	padding: 0;
+}
+.team_member_shadow_effect {
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+}
+.team_member_shadow_effect *, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.team_member_shadow_effect .uc_team_member {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0px;
+}
+.team_member_shadow_effect .uc_team_member p {
+	margin: 14px 0;
+	line-height: 25px;
+}
+.team_member_shadow_effect .uc_team_member a:hover i {
+	color: #e4473c;
+}
+.team_member_shadow_effect .uc_team_member h4 {
+	padding: 30px 0 7px 0;
+	font-size: 32px;
+	font-weight: 400;
+	color: #333;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image {
+	position: relative;
+	text-align: center;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image img.uc_user_image {
+	height: auto;
+	max-width: 100%;
+}
+.team_member_shadow_effect .uc_team_member:hover .uc_team_image .uc_social_icons {
+	box-shadow: inset 0 0 0 155px rgba(0,0,0,0.60);
+	opacity: 1;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image .uc_social_icons {
+	display: inline-block;
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+	transition: all 0.4s ease-out;
+	opacity: 0;
+	text-align: center;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image .uc_social_icons li {
+	position: relative;
+	top: 48%;
+	display: inline-block;
+	margin-top: -35px;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image .uc_social_icons a {
+	color: #fff;
+	border: 1px solid #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 42px;
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	text-align: center;
+	margin: 0 5px;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image .uc_social_icons a:hover {
+	background: #fff;
+	opacity: 1;
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image .uc_social_icons a:hover {
+	opacity: 0.7
+}
+.team_member_shadow_effect .uc_team_member .uc_team_image .uc_social_icons span {
+	display: none
+}
+.team_member_shadow_effect .fa {
+	display: inline-block;
+	font-size: 20px;
+	padding-top: 10px;
+	text-rendering: auto;
+}
+.team_member_shadow_effect .uc_user_name span.uc_job {
+	font-weight: 300;
+	display: block;
+	font-size: 16px;
+	color: #888;
+}
+
+@media (max-width:480px) {
+.team_member_shadow_effect .uc_team_member:hover .uc_team_image .uc_social_icons {
+	box-shadow: inset 0 0 0 248px rgba(0,0,0,0.60);
+}
+}
+
+@media (min-width:480px) and (max-width:767px) {
+.team_member_shadow_effect .uc_team_member:hover .uc_team_image .uc_social_icons {
+	box-shadow: inset 0 0 0 280px rgba(0,0,0,0.60);
+}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+.team_member_shadow_effect .uc_team_member:hover .uc_team_image .uc_social_icons {
+	box-shadow: inset 0 0 0 300px rgba(0,0,0,0.60);
+}
+}
+
+@media (min-width:1024px) {
+.team_member_shadow_effect .uc_team_member:hover .uc_team_image .uc_social_icons {
+	box-shadow: inset 0 0 0 400px rgba(0,0,0,0.60);
+}
+}

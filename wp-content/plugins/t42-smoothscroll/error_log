@@ -1,0 +1,3 @@
+[09-Sep-2018 11:23:49 America/Chicago] PHP Fatal error:  Call to undefined function load_plugin_textdomain() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/t42-smoothscroll/t42-smoothscroll.php on line 60
+[10-Oct-2018 14:18:25 America/Chicago] PHP Fatal error:  Call to undefined function load_plugin_textdomain() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/t42-smoothscroll/t42-smoothscroll.php on line 60
+[16-Oct-2018 11:34:37 America/Chicago] PHP Fatal error:  Call to undefined function load_plugin_textdomain() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/t42-smoothscroll/t42-smoothscroll.php on line 60

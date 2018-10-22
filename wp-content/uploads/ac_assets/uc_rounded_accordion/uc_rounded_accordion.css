@@ -1,0 +1,119 @@
+
+.uc_rounded_accordion *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_rounded_accordion .uc_container
+{
+	font-weight:400;
+}
+.uc_rounded_accordion .uc_container .uc-heading
+{
+	font-size:15px;
+	line-height:45px;
+	display:block;
+	padding:0px 20px 0px 0px;
+	font-weight:400;
+	overflow:hidden;
+	cursor:pointer;
+	color:#595959;
+}
+
+.uc_rounded_accordion .uc_container .uc_ac_box
+{
+	margin-bottom:3px;
+}
+
+/*----------CSS--------------------*/
+
+.uc_rounded_accordion .uc_container .uc_content
+{
+	background-color:#ffffff;
+	box-shadow:#e1e3e6 -2px 8px 17px;
+	border-radius:0px 0px 10px 10px;
+	font-size:15px;
+	line-height:22px;
+	padding:20px 24px 20px 24px;
+	font-weight:400;
+	color:#333333;
+    display:none;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.uc_rounded_accordion .uc_container .uc-heading
+{
+	color:#ffffff;
+	font-weight:500;
+	border-radius:50px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_rounded_accordion .uc_container .uc-heading span.bbb
+{
+	background-color:#ec6161;
+	text-align:center;
+	color:#ffffff;
+	width:43px;
+	height:43px;
+	border-radius:50%;
+	float:left;
+	font-size:13px;
+	display:block;
+	line-height:42px;
+	margin-right:10px;
+	border:#ec6161 1px solid; 
+}
+
+.uc_rounded_accordion .uc_container .uc-heading span.uc_active
+{
+	display:none;
+}
+
+.uc_rounded_accordion .uc_container .uc-heading span.uc_dactive
+{
+	display:block;
+}
+
+.uc_rounded_accordion .uc_container .uc-heading.active span.uc_active
+{
+	display:block;
+	background-color:#ffffff;
+	color:#ec6161;
+}
+
+.uc_rounded_accordion .uc_container .uc-heading.active em
+{
+	color:#ec6161;
+}
+
+.uc_rounded_accordion .uc_container .uc-heading.active span.uc_dactive
+{
+	display:none;
+}
+.uc_rounded_accordion .uc_container .uc-heading em
+{
+	font-size:16px;
+	font-weight:500;
+	color:#333333;
+	display:block; 
+	float:left; 
+	width:calc(100% - 63px);
+	font-style:normal;
+	
+}
+
+
+
+@media only screen and (max-width: 510px){
+	.uc_rounded_accordion .uc_container .uc-heading em { width:calc(100% - 63px); line-height:18px; margin-top:4px;}
+	
+}

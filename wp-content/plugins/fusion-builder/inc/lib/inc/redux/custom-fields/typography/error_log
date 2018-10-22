@@ -1,0 +1,1 @@
+[09-Sep-2018 15:18:23 America/Chicago] PHP Fatal error:  Call to undefined function get_site_transient() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/lib/inc/redux/custom-fields/typography/googlefonts.php on line 23

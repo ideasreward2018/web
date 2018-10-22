@@ -1,0 +1,99 @@
+ .uc_border-team-member *{
+     margin:0;
+     padding:0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ .uc_border-team-member .uc_inner{
+    max-width:370px;
+     height:450px;
+     text-align:center;
+     position:relative;
+     margin:0 auto;
+}
+ .uc_border-team-member .uc_inner .uc_pic_box img{
+    width:100%;
+     display:block;
+}
+ .uc_border-team-member .uc_inner .uc_border_box{
+     position:absolute;
+     left:0px;
+     top:0px;
+     margin:15px;
+     width:92%;
+     height:93%;
+    transition: all 0.4s ease-out;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box{
+    position:absolute;
+    left:50%;
+    top:50%;
+    height: 93%;
+    transform:translate(-50%,-50%);
+    width:92%;
+    opacity:0;
+    transition: all 0.4s ease-out;
+}
+ .uc_border-team-member .uc_inner:hover .uc_hover_box{
+    opacity:0.7;
+    transition: all 0.4s ease-out;
+}
+ .uc_border-team-member .uc_inner:hover .uc_border_box{
+    opacity:0;
+    transition: all 0.4s ease-out;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box{
+     position:absolute;
+     left:0;
+     top:65%;
+     transform:translateY(-50%);
+     width: 100%;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box h2{
+     font-size:20px;
+    color:#000;
+     text-transform:uppercase;
+    line-height:normal;
+    font-weight:600;
+    margin:18px 0 2px;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box .uc_border{
+     width:80px;
+     height:3px;
+     background:#fff;
+     display:inline-block;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box p{
+    color:#000;
+     font-size:15px;
+    line-height:24px;
+    font-weight:600;
+    padding:5px 0 60px;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box a{
+     width:61px;
+     height:61px;
+     background:rgba(255, 255, 255, 0.6);
+     margin:0 15px;
+     border-radius:100%;
+     font-size:20px;
+     display: inline-block;
+     position:relative;
+     color:#000;
+     transition: all 0.4s ease-out;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box a .fa{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+}
+ .uc_border-team-member .uc_inner:hover .uc_hover_box{
+    display:block;
+}
+ .uc_border-team-member .uc_inner .uc_hover_box .uc_icon_box a:hover{
+     background:#fff;
+    transition: all 0.4s ease-out;
+}
+ 

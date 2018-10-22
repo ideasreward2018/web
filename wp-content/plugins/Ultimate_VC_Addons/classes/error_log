@@ -1,0 +1,3 @@
+[09-Sep-2018 15:48:41 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/classes/ultimate_helper.php on line 191
+[10-Oct-2018 14:49:26 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/classes/ultimate_helper.php on line 191
+[16-Oct-2018 12:10:14 America/Chicago] PHP Fatal error:  Call to undefined function add_filter() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/classes/ultimate_helper.php on line 191

@@ -1,0 +1,3 @@
+[09-Sep-2018 11:28:13 America/Chicago] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[10-Oct-2018 14:48:53 America/Chicago] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[16-Oct-2018 12:09:53 America/Chicago] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/rest-api/class-wp-rest-response.php on line 17

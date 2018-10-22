@@ -1,0 +1,119 @@
+
+.uc_overlap_accordion *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_overlap_accordion .uc_container
+{
+	font-weight:400;
+	margin-right:12px;
+}
+.uc_overlap_accordion .uc_container .uc-heading
+{
+	font-size:15px;
+	line-height:30px;
+	display:block;
+	padding:4px 0px 4px 20px;
+	font-weight:400;
+	cursor:pointer;
+}
+
+.uc_overlap_accordion .uc_container .uc_ac_box
+{
+	border:#e9e9e9 1px solid;
+	margin-bottom:4px;
+	border-radius:3px;
+}
+
+/*----------CSS--------------------*/
+
+.uc_overlap_accordion .uc_container .uc_content
+{
+	font-size:15px;
+	line-height:22px;
+	padding:5px 20px 33px 20px;
+	font-weight:400;
+	color:#858bff;
+    display:none;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.uc_overlap_accordion .uc_container .uc-heading
+{
+	color:#575757;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_overlap_accordion .uc_container .uc-heading span
+{
+	font-size:15px;
+	display:block;
+	line-height:27px;
+	width:25px;
+	height:25px;
+	border-radius:3px;
+	text-align:center;
+	color:#ffffff;
+	margin-top:3px;
+	position:relative;
+	right:-12px;
+	bottom:30px;
+	float:right;
+	background-color:#858bff;
+}
+
+.uc_overlap_accordion .uc_container .uc-heading span.uc_active
+{
+	display:none;
+}
+
+.uc_overlap_accordion .uc_container .uc-heading span.uc_dactive
+{
+	display:block;
+}
+
+.uc_overlap_accordion .uc_container .uc-heading.active span.uc_active
+{
+	display:block;
+
+}
+.uc_overlap_accordion .uc_container .uc-heading.active em
+{
+	color:#858bff;
+}
+.uc_overlap_accordion .uc_container .uc-heading.active span.uc_dactive
+{
+	display:none;
+}
+.uc_overlap_accordion .uc_container .uc-heading em
+{ 
+	display:block;
+	text-align:left;
+	width:calc(100% - 80px);
+	font-style:normal;
+}
+
+
+@media only screen and (max-width: 767px){
+	
+
+	.uc_overlap_accordion .uc_container .uc-heading span { margin-left:0px;}
+	.uc_overlap_accordion .uc_container .uc-heading em { width:calc(100% - 35px); }
+	
+}
+
+@media only screen and (max-width: 491px){
+
+	.uc_overlap_accordion .uc_container .uc-heading span { margin-left:0px; bottom:33px;}
+	.uc_overlap_accordion .uc_container .uc-heading em { width:calc(100% - 35px); line-height:18px; }
+	
+}

@@ -1,0 +1,12 @@
+[09-Sep-2018 12:01:57 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/File.php on line 52
+[09-Sep-2018 12:01:57 America/Chicago] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[09-Sep-2018 12:01:57 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[09-Sep-2018 12:01:57 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/DB.php on line 52
+[10-Oct-2018 15:45:10 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/DB.php on line 52
+[10-Oct-2018 15:45:11 America/Chicago] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[10-Oct-2018 15:45:11 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/File.php on line 52
+[10-Oct-2018 15:45:11 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[16-Oct-2018 12:57:29 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/DB.php on line 52
+[16-Oct-2018 12:57:29 America/Chicago] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[16-Oct-2018 12:57:29 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/File.php on line 52
+[16-Oct-2018 12:57:30 America/Chicago] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home2/paramont/public_html/idealcoin.io/wp-includes/SimplePie/Cache/Memcache.php on line 59

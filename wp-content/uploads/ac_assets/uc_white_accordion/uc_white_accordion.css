@@ -1,0 +1,115 @@
+
+.uc_white_accordion *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_white_accordion .uc_container
+{
+	font-weight:400;
+}
+.uc_white_accordion .uc_container .uc-heading
+{
+	font-size:14px;
+	line-height:30px;
+	display:block;
+	padding:4px 20px;
+	font-weight:400;
+	cursor:pointer;
+}
+
+
+
+/*----------CSS--------------------*/
+
+.uc_white_accordion .uc_container .uc_content
+{
+	background-color:#ffffff;
+	font-size:14px;
+	line-height:31px;
+	padding:25px 22px 25px 63px;
+	font-weight:400;
+	color:#585a61;
+    display:none;
+	margin-top:2px;
+	margin-bottom:14px;
+}
+
+.uc_white_accordion .uc_container .uc-heading
+{
+	background-color:#ffffff;
+	color:#575757;
+	padding-top:17px;
+	padding-bottom:17px;
+	border-top:#ff8d8d 2px solid;
+	margin-bottom:14px;
+	position:relative;
+	clear:both;
+	min-height:70px;
+}
+
+.uc_white_accordion .uc_container .uc-heading.active:before
+{
+	content:'';
+	width:18px;
+	height:18px;
+	display:block;
+	background-color:inherit;
+	-ms-transform: rotate(44deg); 
+    -webkit-transform: rotate(44deg); 
+    transform: rotate(44deg);
+	position:absolute;
+	left:5%;
+	bottom:-7px;
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_white_accordion .uc_container .uc-heading span.bbb
+{
+	float:left;
+	font-size:25px;
+	display:block;
+	line-height:30px;
+	margin-right:20px;
+	color:#b2b5be;
+}
+
+
+.uc_white_accordion .uc_container .uc-heading.active span
+{
+	display:block;
+	color:#585a61;
+}
+.uc_white_accordion .uc_container .uc-heading.active em
+{
+	color:#585a61;
+}
+
+.uc_white_accordion .uc_container .uc-heading em
+{ 
+	display:block; 
+	float:left; 
+	width:calc(100% - 80px);
+	font-style:normal;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#b2b5be;
+}
+
+
+@media only screen and (max-width: 767px){
+	
+
+	.uc_white_accordion .uc_container .uc-heading span { margin-left:0px;}
+	.uc_white_accordion .uc_container .uc-heading em { width:calc(100% - 58px); line-height:18px;}
+	
+}
+
+@media only screen and (max-width: 440px){
+	.uc_white_accordion .uc_container .uc-heading{ min-height:92px;}
+}

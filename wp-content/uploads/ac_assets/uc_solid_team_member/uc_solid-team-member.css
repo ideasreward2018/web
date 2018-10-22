@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_solid-team-member *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_solid-team-member .uc_inner{ width:100%; text-align:center; padding:0 0 20px;
+-webkit-box-shadow: 0px 10px 11px -1px rgba(133,130,133,0.51);
+-moz-box-shadow: 0px 10px 11px -1px rgba(133,130,133,0.51);
+box-shadow: 0px 10px 11px -1px rgba(133,130,133,0.51);}
+
+.uc_solid-team-member .uc_inner .uc_top{ width:100%; height:203px; position:relative;}
+.uc_solid-team-member .uc_inner .uc_top .uc_transparent{ position:absolute; left:0px; top:0px; background:rgba(0, 0, 0, 0.4);}
+.uc_solid-team-member .uc_inner .uc_top .uc_member{position:absolute; left:50%; top:50%; width:121px; height:121px;transform: translate(-50%,-50%); 
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); 
+  -o-transform: translate(-50%,-50%); 
+  -webkit-transform: translate(-50%,-50%);  border-radius:100%; overflow:hidden;}
+.uc_solid-team-member .uc_inner .uc_top .uc_member .uc_pic{ width:100%; height:100%;}
+.uc_solid-team-member .uc_inner h2{ font-size:16px; text-transform:uppercase;line-height:normal; font-weight:600;margin:25px 0 0}
+.uc_solid-team-member .uc_inner h2 span{ display:block;font-size:13px; margin:8px 0 0; text-transform:none;}
+.uc_solid-team-member .uc_inner .border{ width:40px; height:2px; background:#fff; display:inline-block;}
+.uc_solid-team-member .uc_inner p{ font-size:14px; line-height:24px; font-weight:normal;padding: 15px 15px 40px;}
+
+
+.uc_solid-team-member .uc_inner ul{  overflow:hidden;text-align: center;}
+.uc_solid-team-member .uc_inner ul li{ display: inline-block; width:31%; height:30px; position:relative; list-style:none; text-align:center;}
+.uc_solid-team-member .uc_inner ul li a{ display:block;}
+.uc_solid-team-member .uc_inner ul li .fa{ position:absolute; top:50%; left:50%;
+  transform: translate(-50%,-50%); 
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); 
+  -o-transform: translate(-50%,-50%); 
+  -webkit-transform: translate(-50%,-50%); 
+  font-size:18px; color: #fff;}
+.uc_solid-team-member .uc_inner ul li:last-child{border-right:none;}
+
+.uc_solid-team-member .uc_inner:hover .border{ background:#33decc;}
+
+
+@media only screen and (max-width: 768px) {
+	
+.uc_starter_tabs .uc_starter_tabs_inner .tabber .tabHeades .tab_hd{ text-align:center; width:100%; padding:15px 0px; border-bottom:1px solid #e4e7f0;}		
+.uc_starter_tabs .uc_starter_tabs_inner .tabber .tabHeades .tab_hd:last-child{ border-bottom:none;}
+}
+
+

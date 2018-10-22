@@ -1,0 +1,4 @@
+- Add real lazyload to post elements
+- Add link attributes and classes to button elements
+- Add date range option to post elements
+- Image overlay for video iFrame with click event

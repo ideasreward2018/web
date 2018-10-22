@@ -1,0 +1,105 @@
+.uc_team_member_box * {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.uc_team_member_box:after,
+.uc_team_member_box:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.uc_team_member_box {
+    margin: 0 auto;
+    position: relative;
+    min-height: 1px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #fff;
+    font-weight: 400;
+	border:3px solid black;
+}
+.uc_team_member_box .uc_noo_farmer {
+    text-align: center;
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_thumbnail {
+    position: relative;
+    overflow: hidden;
+    padding: 0
+}
+
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_thumbnail img {
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    vertical-align: middle;
+    border: 0;
+}
+.uc_team_member_box .uc_noo_farmer:hover .uc_noo_farmer_thumbnail img {
+    -webkit-transform: translate(15px, 0);
+    -ms-transform: translate(15px, 0);
+    -o-transform: translate(15px, 0);
+    transform: translate(15px, 0)
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content {
+    background: #000000;
+    padding: 17px 25px 27px;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s
+}
+.uc_team_member_box .uc_noo_farmer:hover .uc_noo_farmer_content {
+    color: #fff
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content h4 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.uc_team_member_box .uc_noo_farmer:hover .uc_noo_farmer_content h4 {
+    color: #fff;
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content p {
+    margin: 0 0 10px;
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content .uc_social {
+    display: block;
+    padding-top: 7px
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content .uc_social .fa {
+    color: #ffffff;
+    border: 3px solid #fff;
+    width: 34px;
+    height: 34px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 3px 4px;
+    font-size: 14px;
+    line-height: 30px;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s
+}
+.uc_team_member_box .uc_noo_farmer:hover .uc_noo_farmer_content .uc_social .fa {
+    border-color: #fff;
+    color: #fff
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content .uc_social .fa:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #000000;
+}
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content .uc_social .fa,
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content .uc_social .fa:focus,
+.uc_team_member_box .uc_noo_farmer .uc_noo_farmer_content .uc_social .fa:hover {
+      text-decoration: none;
+}

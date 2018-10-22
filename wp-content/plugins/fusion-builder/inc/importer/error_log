@@ -1,0 +1,1 @@
+[09-Sep-2018 12:34:01 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/fusion-builder/inc/importer/importer.php on line 73

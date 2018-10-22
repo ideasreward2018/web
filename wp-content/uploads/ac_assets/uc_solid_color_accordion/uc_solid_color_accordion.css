@@ -1,0 +1,112 @@
+
+.uc_solid_color_accordion *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_solid_color_accordion .uc_container
+{
+	font-weight:400;
+}
+.uc_solid_color_accordion .uc_container .uc-heading
+{
+	font-size:15px;
+	line-height:30px;
+	display:block;
+	padding:4px 20px 4px 0px;
+	font-weight:400;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_solid_color_accordion .uc_container .uc_content
+{
+	background-color:#ffffff;
+	font-size:15px;
+	line-height:22px;
+	padding:11px 22px;
+	margin-bottom:10px;
+	font-weight:400;
+	color:#898989;
+    display:none;
+}
+
+.uc_solid_color_accordion .uc_container .uc-heading
+{
+	padding:0px;
+	margin-bottom:10px;
+	line-height:45px;
+	background-color:#30c8b8;
+	color:#ffffff;
+}
+
+.uc_solid_color_accordion .uc_container .uc-heading.active
+{
+	margin-bottom:0px;
+}
+
+
+/*----------CSS--------------------*/
+
+.uc_solid_color_accordion .uc_container .uc-heading span.bbb
+{
+	background-color:#3be2d0;
+	float:left;
+	font-size:15px;
+	display:block;
+	margin-right:0px;
+	font-weight:600;
+	width:33px;
+	text-align:right;
+	line-height:45px;
+	position:relative;
+	z-index:3;
+}
+.uc_solid_color_accordion .uc_container .uc-heading span:before
+{
+	z-index:9;
+}
+.uc_solid_color_accordion .uc_container .uc-heading span:after
+{
+	background-color:inherit;
+	display:block;
+	position:absolute;
+	content:'';
+	top:-6px;
+	left:-7px;
+	width:60px;
+	height:60px;
+	-ms-transform: rotate(44deg); 
+    -webkit-transform: rotate(44deg); 
+    transform: rotate(44deg);
+	z-index:-1;
+}
+
+.uc_solid_color_accordion .uc_container .uc-heading em
+{ 
+	display:block; 
+	float:left; 
+	width:calc(100% - 95px);
+	font-style:normal;
+	margin-left:41px;
+}
+
+
+@media only screen and (max-width: 767px){
+	.uc_solid_color_accordion .uc_container .uc-heading span { margin-left:0px;}
+	.uc_solid_color_accordion .uc_container .uc-heading em { width:calc(100% - 68px); line-height:44px; padding-right:10px;}
+	
+}
+
+@media only screen and (max-width: 505px){
+
+	.uc_solid_color_accordion .uc_container .uc-heading span { margin-left:0px;}
+	.uc_solid_color_accordion .uc_container .uc-heading em { width:calc(100% - 68px); line-height:18px; padding-top:4px;}
+	
+}

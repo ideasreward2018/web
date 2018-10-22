@@ -1,0 +1,47 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">ts_vcsc_team_basic_position</custom-field> 
+        <custom-field action="copy">ts_vcsc_team_contact_email</custom-field>        
+        <custom-field action="copy">ts_vcsc_team_contact_phone</custom-field>
+        <custom-field action="copy">ts_vcsc_team_contact_cell</custom-field>             
+        <custom-field action="copy">ts_vcsc_team_contact_portfolio</custom-field>
+        <custom-field action="translate">ts_vcsc_team_contact_portfoliolabel</custom-field>         
+        <custom-field action="copy">ts_vcsc_team_contact_other</custom-field>
+        <custom-field action="translate">ts_vcsc_team_contact_otherlabel</custom-field>
+        <custom-field action="copy">ts_vcsc_team_contact_skype</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_facebook</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_twitter</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_google</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_linkedin</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_xing</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_envato</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_rss</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_forrst</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_flickr</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_instagram</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_picasa</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_pinterest</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_vimeo</custom-field>
+        <custom-field action="copy">ts_vcsc_team_social_youtube</custom-field>
+        <custom-field action="copy">ts_vcsc_team_skills_symbol</custom-field>
+        <custom-field action="copy">ts_vcsc_team_skills_symbolcolor</custom-field>
+        <custom-field action="translate">ts_vcsc_team_skills_header</custom-field>
+        <custom-field action="translate">ts_vcsc_team_skills_opening</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_dedicatedpage</custom-field>
+        <custom-field action="copy-once">ts_vcsc_team_basic_dedicatedlink</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_dedicatedtarget</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_dedicatedicon</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_dedicatedtype</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_dedicatedcolor</custom-field>
+        <custom-field action="translate">ts_vcsc_team_basic_dedicatedlabel</custom-field>
+        <custom-field action="translate">ts_vcsc_team_basic_dedicatedtooltip</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_buttonfile</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_buttonicon</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_buttoncolor</custom-field>        
+        <custom-field action="translate">ts_vcsc_team_basic_buttonlabel</custom-field>
+        <custom-field action="translate">ts_vcsc_team_basic_buttontooltip</custom-field>
+        <custom-field action="copy">ts_vcsc_team_basic_buttontype</custom-field>
+        <custom-field action="copy">ts_vcsc_custompost_migrated</custom-field> 
+        <custom-field action="copy">ts_vcsc_team_migrated</custom-field>
+    </custom-fields>
+</wpml-config>

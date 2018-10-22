@@ -1,0 +1,3 @@
+[09-Sep-2018 15:06:45 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/Ultimate_VC_Addons.php on line 15
+[10-Oct-2018 14:18:35 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/Ultimate_VC_Addons.php on line 15
+[16-Oct-2018 11:34:45 America/Chicago] PHP Fatal error:  Call to undefined function register_activation_hook() in /home2/paramont/public_html/idealcoin.io/wp-content/plugins/Ultimate_VC_Addons/Ultimate_VC_Addons.php on line 15
